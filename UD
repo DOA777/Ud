@@ -1,13 +1,13 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "FHXX HUB | https://discord.gg/GcjmSrtmnk",
-   LoadingTitle = "FHXX Cracked",
-   LoadingSubtitle = "Cracked By Visualsfxx",
+   Name = "AetherWare | https://discord.gg/GcjmSrtmnk",
+   LoadingTitle = "AetherWare",
+   LoadingSubtitle = "AetherWare Owner Visualsfxx",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "FHXX Dumped"
+      FileName = "AetherWare Dumped"
    },
     Discord = {
         Enabled = true,
@@ -17,18 +17,18 @@ local Window = Rayfield:CreateWindow({
    KeySystem = true, -- Enable key system
     KeySettings = {
         Title = "Key System",
-        Subtitle = "Cracked By Visualsfxx",
-        Note = "Get Key At https://discord.gg/GcjmSrtmnk",
-        FileName = "FHXX Dumped KEY",
+        Subtitle = "AetherWare Owner Visualsfxx",
+        Note = "Get Key At .gg/GcjmSrtmnk Comes With order",
+        FileName = "AetherWare Dumped KEY",
         SaveKey = false, -- Key won't be saved permanently
         GrabKeyFromSite = true,
-        Key = {"https://pastebin.com/raw/BELKAgK4"} -- List of accepted keys or key URLs
+        Key = {"https://pastebin.com/raw/j3Bz4tTD"} -- List of accepted keys or key URLs
     }
 })
 
 Rayfield:Notify({
-   Title = "Welcome To FHXX HUB",
-   Content = " Cracked Alert <3",
+   Title = "Welcome To AetherWare",
+   Content = " AetherWare <3",
    Duration = 5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -132,7 +132,7 @@ local InfiniteJumpButton = PlayerTab:CreateButton({
 -- Player Tab - Walk Speed
 local Slider = PlayerTab:CreateSlider({
     Name = "Walk Speed",
-    Range = {0, 1000},
+    Range = {0, 19},
     Increment = 1,
     Suffix = "Speed",
     CurrentValue = 16,
